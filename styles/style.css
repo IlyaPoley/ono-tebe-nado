@@ -35,7 +35,6 @@ header nav ul, .footer nav ul {
 
 .header nav ul li a, .footer nav ul li a {
     color: inherit;
-    font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
@@ -66,7 +65,6 @@ address {
 }
 
 .address a {
-    font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
@@ -101,7 +99,6 @@ address {
     color: white;
     z-index: 3;
     top: 165px;
-    font-family: Raleway;
     font-size: 100px;
     font-weight: 700;
     line-height: 115px;
@@ -148,10 +145,9 @@ address {
 }
 
 .cover__subline {
-    font-family: Raleway;
-    font-size: 22px;
     font-weight: 400;
     line-height: 28px;
+    font-size: 22px;
     text-transform: uppercase;
     color: white;
     text-align: left;
@@ -166,7 +162,6 @@ address {
     height: 51px;
     top: 655px;
     left: 794px;
-    font-family: Raleway;
     font-size: 22px;
     font-weight: 500;
     line-height: 25.83px;
@@ -192,7 +187,6 @@ address {
     width: 121px;
     height: 47px;
     margin-left: 40px;
-    font-family: Raleway;
     font-size: 40px;
     font-weight: 700;
     line-height: 46.96px;
@@ -251,7 +245,6 @@ address {
     height: 82px;
     top: 51px;
     margin-left: 40px;
-    font-family: Raleway;
     font-size: 22px;
     font-weight: 700;
     line-height: 26.4px;
@@ -297,7 +290,6 @@ address {
     width: 192px;
     margin-left: 40px;
     top: 667px;
-    font-family: Raleway;
     font-size: 20px;
     font-weight: 400;
     line-height: 23.48px;
@@ -370,7 +362,6 @@ address {
     width: 291px;
     height: 47px;
     top: 3px;
-    font-family: Raleway;
     font-size: 40px;
     font-weight: 700;
     line-height: 46.96px;
@@ -382,7 +373,6 @@ address {
 
 .about__text-top {
     position: relative;
-    font-family: Raleway;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -395,7 +385,6 @@ address {
 
 .about__text-bottom {
     position: relative;
-    font-family: Raleway;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
