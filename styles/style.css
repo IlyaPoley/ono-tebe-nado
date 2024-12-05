@@ -33,7 +33,7 @@ header nav ul, .footer nav ul {
     list-style: none;
 }
 
-.header nav ul li a, .footer nav ul li a{
+.header nav ul li a, .footer nav ul li a {
     color: inherit;
     font-family: Raleway;
     font-size: 18px;
@@ -51,7 +51,7 @@ header nav ul, .footer nav ul {
     margin-right: 155px;
 }
 
-.header__adress {
+.adress {
     width: 240.52px;
     height: 98px;
     top: 5px;
@@ -357,12 +357,11 @@ header nav ul, .footer nav ul {
     left: 10px;
 }
 
-.about__title{
+.about__title {
     position: absolute;
     width: 291px;
     height: 47px;
     top: 3px;
-
     font-family: Raleway;
     font-size: 40px;
     font-weight: 700;
@@ -373,7 +372,7 @@ header nav ul, .footer nav ul {
     text-transform: uppercase;
 }
 
-.about__text-top{
+.about__text-top {
     position: relative;
     font-family: Raleway;
     font-size: 20px;
@@ -386,7 +385,7 @@ header nav ul, .footer nav ul {
     top: 150px;
 }
 
-.about__text-bottom{
+.about__text-bottom {
     position: relative;
     font-family: Raleway;
     font-size: 20px;
