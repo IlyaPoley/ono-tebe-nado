@@ -109,7 +109,6 @@ address {
 .aligned__text-center {
     text-align: center;
     line-height: 1.3em;
- 
 }
 
 .aligned__text-right {
@@ -120,7 +119,6 @@ address {
 .letter-spacing-extended {
     letter-spacing: 0.6em;
     margin-left: 29px;
- 
 }
 
 .no-letter-spacing {
@@ -204,7 +202,6 @@ address {
     background-position: center;
     background-size: 590px 563px;
     background-repeat: no-repeat;
-    
 }
 
 .card_type_film {
