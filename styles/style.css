@@ -4,16 +4,12 @@
     justify-content: space-between;
     align-items: center;
     width: 1052px;
-    height: 105px;
     margin-top: 92px;
     margin-left: 55px;
 }
 .header__menu {
     width: 391.48px;
-    height: 22px;
-    top: 44px;
-    left: 26.52px;
-    font-family: Raleway;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
@@ -23,7 +19,7 @@
     color: black;
 }
 
-header nav ul, .footer nav ul {
+.header__linkes-list {
     display: flex;
     gap: 30px;
     list-style: circle;
@@ -33,7 +29,7 @@ header nav ul, .footer nav ul {
     list-style: none;
 }
 
-.header nav ul li a, .footer nav ul li a {
+.header__linkes {
     color: inherit;
     font-size: 18px;
     font-weight: 400;
@@ -52,11 +48,9 @@ header nav ul, .footer nav ul {
 
 address {
     width: 240.52px;
-    height: 98px;
-    top: 5px;
     margin-right: 55px;
     text-align: left;
-    font-family: Raleway;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
@@ -74,11 +68,9 @@ address {
 
 .cover {
     display: flex;
+    flex-direction: column;
     position: relative;
-    width: 1100px;
-    height: 757px;
     margin-top: 96px;
-    background-color: #eee;
     background-image: url(../images/cover.jpg);
     background-position: center;
     background-size: cover;
@@ -88,63 +80,59 @@ address {
 .cover__overlay {
     position: absolute;
     width: 1100px;
-    height: 757px;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     background-size: cover;
     z-index: 2;
 }
 
 .cover__title {
-    position: absolute;
+    margin: 165px 50px 130px;
     color: white;
     z-index: 3;
-    top: 165px;
     font-size: 100px;
     font-weight: 700;
-    line-height: 115px;
+    line-height: 117px;
     letter-spacing: 0.3em;
-    text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-}
-
-.aligned-text_left {
-    position: relative;
-    left: 50px;
-    margin-right: 30px;
     text-transform: uppercase;
 }
-
-.aligned-text_center {
-    position: relative;
-    top: 15px;
-    left: 336px;
-    margin-right: 30px;
-    text-transform: uppercase;
+.aligned__text {
+    display: block;
 }
 
-.aligned-text_right {
-    position: relative;
-    top: 15px;
-    left: 633px;
-    margin-left: 8px;
-    text-transform: uppercase;
+.aligned__text-left {
+   text-align: left;
 }
 
-.letter-spacing-extended-right {
-    margin-left: 22px;
+.aligned__text-center {
+    text-align: center;
+    line-height: 1.3em;
+ 
+}
+
+.aligned__text-right {
+    text-align: right;
+ 
+}
+
+.letter-spacing-extended {
+    letter-spacing: 0.6em;
+    margin-left: 29px;
+ 
+}
+
+.no-letter-spacing {
+    letter-spacing: 0em;
 }
 
 .cover__text {
-    position: absolute;
-    width: 637px;
-    height: 28px;
-    top: 667px;
-    left: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -5px 50px 51px 78px ;
     z-index: 2;
-}
-
-.cover__subline {
     font-weight: 400;
     line-height: 28px;
     font-size: 22px;
@@ -157,12 +145,12 @@ address {
 }
 
 .button {
-    position: absolute;
     width: 256px;
     height: 51px;
     top: 655px;
     left: 794px;
     font-size: 22px;
+    font-family: Raleway, Arial, sans-serif;
     font-weight: 500;
     line-height: 25.83px;
     color: #fff;
@@ -176,16 +164,14 @@ address {
 
 .lots {
     position: relative;
-    margin-top: 179px;
+    margin-top: 178px;
     width: 1052px;
-    height: 692px;
-    left: 29px;
+    left: 28px;
 }
 
 .lots__heading {
     position: relative;
     width: 121px;
-    height: 47px;
     margin-left: 40px;
     font-size: 40px;
     font-weight: 700;
@@ -198,52 +184,45 @@ address {
 
 .lots__card-list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
     margin-top: 27px;
+
 }
 
 .lots__card-list-item {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
     width: 324px;
-    height: 563px;
-    margin-right: 22px;
     z-index: 1;
 }
 
 .card {
-    height: 563px;
+    display: flex;
+    flex-wrap: wrap;
+    background-position: center;
+    background-size: 590px 563px;
+    background-repeat: no-repeat;
+    
 }
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    background-position: center;
-    background-size: 590px 563px;
-    background-repeat: no-repeat;
-
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    background-position: center;
-    background-size: 590px 563px;
-    background-repeat: no-repeat;
 }
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-position: center;
-    background-size: 590px 563px;
-    background-repeat: no-repeat;
 }
 
 .card__title {
-    position: absolute;
     color: #fff;
     width: 254px;
-    height: 82px;
-    top: 51px;
+    margin-top: 51px;
     margin-left: 40px;
     font-size: 22px;
     font-weight: 700;
@@ -258,12 +237,11 @@ address {
 }
 
 .card__text {
-    position: absolute;
     color: #fff;
     width: 254px;
-    height: 144px;
-    left: 40px;
-    font-family: Raleway;
+    margin-left: 30px;
+    margin-bottom: 48px;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -274,22 +252,18 @@ address {
 }
 
 .card__text_film {
-    bottom: 48px;
+    margin-top: 238px;
 }
 
-.card__text_book {
-    top: 155px;
-}
 
 .card__text_picture {
-   top: 251px;
+    margin-top: 90px;
 }
 
 .card__link {
-    position: absolute;
     width: 192px;
+    margin-top: 30px;
     margin-left: 40px;
-    top: 667px;
     font-size: 20px;
     font-weight: 400;
     line-height: 23.48px;
@@ -311,10 +285,10 @@ address {
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    justify-content: center;
     width: 1052px;
-    height: 595px;
     margin-top: 146px;
-    left: 24px;
+    margin-left: 24px;
 }
 
 .about__item-left {
@@ -324,15 +298,15 @@ address {
 	flex: 1;
 	height: 48%;
 	background: #fff;
+    align-items: center;
 }
 
 .about__logo {
     position: relative;
     width: 145px;
     height: 134px;
-    z-index: 2;
     top: 90px;
-    left: 99px;
+    z-index: 2;
 }
 
 .back__logo {
@@ -342,9 +316,8 @@ address {
     height: 240px;
     border-radius: 50%;
     top: 35px;
-    left: 47px;
+    left: 50px;
     z-index: 1;
-    justify-content: center;
 }
 
 .about__item-right {
@@ -358,10 +331,9 @@ address {
 }
 
 .about__title {
-    position: absolute;
     width: 291px;
-    height: 47px;
     top: 3px;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 46.96px;
@@ -371,8 +343,8 @@ address {
     text-transform: uppercase;
 }
 
-.about__text-top {
-    position: relative;
+.about__text {
+    font-family: Raleway, Arial, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -380,44 +352,45 @@ address {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    top: 150px;
+}
+
+.about__text-top {
+    margin-top: 100px;
 }
 
 .about__text-bottom {
-    position: relative;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.01em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    top: 174px;
+    margin-top: 10px;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
-    position: relative;
     width: 1000px;
-    margin-top: 180px;
+    margin-top: 312px;
     margin-left: 55px;
 }
 
-.footer nav ul {
+.footer__menu {
     display: block;
     text-align: center;
-    list-style: none;
 }
 
-.nav__list {
+.footer__menu-list {
     margin-right: 55px;
+    list-style: none;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
 }
 
 .footer__favicon {
     display: flex;
     width: 240px;
-    height:48px;
     top: 2843px;
     margin-bottom: 98px;
     gap: 45px;
