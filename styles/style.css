@@ -99,6 +99,7 @@ address {
     text-decoration-skip-ink: none;
     text-transform: uppercase;
 }
+
 .aligned__text {
     display: block;
 }
@@ -384,7 +385,6 @@ address {
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
 }
 
 .footer__favicon {
