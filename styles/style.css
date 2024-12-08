@@ -7,6 +7,7 @@
     margin-top: 92px;
     margin-left: 55px;
 }
+
 .header__menu {
     width: 391.48px;
     font-family: Raleway, Arial, sans-serif;
@@ -113,7 +114,6 @@ address {
 
 .aligned__text-right {
     text-align: right;
- 
 }
 
 .letter-spacing-extended {
@@ -162,9 +162,9 @@ address {
 
 .lots {
     position: relative;
-    margin-top: 178px;
     width: 1052px;
-    left: 28px;
+    margin-top: 178px;
+    margin-left: 28px;
 }
 
 .lots__heading {
@@ -182,10 +182,10 @@ address {
 
 .lots__card-list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 30px;
     list-style: none;
     margin-top: 27px;
-
 }
 
 .lots__card-list-item {
@@ -252,12 +252,15 @@ address {
     margin-top: 238px;
 }
 
-
 .card__text_picture {
     margin-top: 90px;
 }
 
 .card__link {
+    text-decoration: none;
+}
+
+.card__more {
     width: 192px;
     margin-top: 30px;
     margin-left: 40px;
@@ -289,12 +292,12 @@ address {
 }
 
 .about__item-left {
-	display: flex;
-	flex-direction: column;
-	flex-basis: 100%;
-	flex: 1;
-	height: 48%;
-	background: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 48%;
+    background: #fff;
     align-items: center;
 }
 
@@ -318,18 +321,17 @@ address {
 }
 
 .about__item-right {
-	display: flex;
+    display: flex;
     position: relative;
-	flex-direction: column;
-	flex: 2;
-	background: #fff;
+    flex-direction: column;
+    flex: 2;
+    background: #fff;
     top: 133px;
     left: 10px;
 }
 
 .about__title {
     width: 291px;
-    top: 3px;
     font-family: Raleway, Arial, sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -388,7 +390,6 @@ address {
 .footer__favicon {
     display: flex;
     width: 240px;
-    top: 2843px;
     margin-bottom: 98px;
     gap: 45px;
     list-style: none;
