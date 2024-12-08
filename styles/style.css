@@ -286,7 +286,6 @@ address {
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    justify-content: center;
     width: 1052px;
     margin-top: 146px;
     margin-left: 24px;
@@ -323,12 +322,11 @@ address {
 
 .about__item-right {
     display: flex;
+    flex-wrap: wrap;
     position: relative;
-    flex-direction: column;
     flex: 2;
     background: #fff;
-    top: 133px;
-    left: 10px;
+    margin-top: 133px;
 }
 
 .about__title {
@@ -366,7 +364,7 @@ address {
     display: flex;
     justify-content: space-between;
     width: 1000px;
-    margin-top: 312px;
+    margin-top: 180px;
     margin-left: 55px;
 }
 
